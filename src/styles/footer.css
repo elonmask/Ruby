@@ -1,0 +1,151 @@
+.footer .about > .container,
+.footer .copyright > .container,
+.footer .info > .container,
+.footer .partner > .container {
+  padding: 30px 0;
+}
+.about-item {
+  height: 50px;
+  width: 50px;
+  margin: 20px;
+  border-radius: 100%;
+  background-color: #fff;
+}
+
+.about-item:first-child {
+  margin-left: 0;
+}
+
+.about-item:last-child {
+  margin-right: 0;
+}
+
+.copyright .plus18 {
+  height: 45px;
+  width: 45px;
+  border-radius: 100%;
+  border: 2px solid hsla(0, 0%, 100%, 0.4);
+  overflow: hidden;
+  position: relative;
+  margin-left: 10%;
+}
+
+.copyright .plus18 * {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.info {
+  border-top: 1px solid hsla(0, 0%, 100%, 0.1);
+  border-bottom: 1px solid hsla(0, 0%, 100%, 0.1);
+}
+
+.info-list {
+  margin-right: 40px;
+}
+
+.info-list:first-child {
+  margin-left: 10%;
+}
+
+.info-list:last-child {
+  margin-left: auto;
+  margin-right: 10%;
+}
+
+.info-item {
+  padding: 5px 0;
+}
+
+.info-link:hover {
+  color: #fff;
+}
+
+.info .phone {
+  position: relative;
+  min-height: 35px;
+  min-width: 35px;
+  max-height: 35px;
+  max-width: 35px;
+  border-radius: 100%;
+  background-color: hsla(0, 0%, 100%, 0.4);
+}
+
+.info .phone:before {
+  content: "\f095";
+  font-family: FontAwesome;
+  font-size: 20px;
+  color: #4a0413;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.partner {
+  background-color: #2f030c;
+}
+
+.partner-wrapper:first-child {
+  margin-left: 10%;
+}
+.partner-wrapper:last-child {
+  margin-right: 10%;
+}
+
+.partner-item {
+  height: 50px;
+  width: 50px;
+  margin: 20px;
+  border-radius: 100%;
+  background-color: #fff;
+}
+
+.partner-item:first-child {
+  margin-left: 0;
+}
+
+.partner-item:last-child {
+  margin-right: 0;
+}
+.hot {
+  width: 100%;
+  height: 34px;
+  background-color: #343341;
+}
+
+.hot-title {
+  width: 100px;
+  position: relative;
+  background-color: #c8304d;
+  height: 100%;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.hot-title * {
+  color: #fff;
+}
+
+.hot-item {
+  padding: 0 10px 0 15px;
+  position: relative;
+}
+
+.hot-item:before {
+  content: "";
+  height: 5px;
+  width: 5px;
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  border-radius: 100%;
+  transform: translateY(-50%) rotate(45deg);
+  background-color: #fff;
+}

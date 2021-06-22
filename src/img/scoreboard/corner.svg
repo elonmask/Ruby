@@ -1,0 +1,7 @@
+<svg width="12" height="13" viewBox="0 0 12 13" fill="#fff" xmlns="http://www.w3.org/2000/svg">
+<g opacity="1">
+<rect x="0.25" y="0.25" width="0.5" height="11.5" stroke="#fff" stroke-width="0.5"/>
+<rect x="11.75" y="11.75" width="0.5" height="11.5" transform="rotate(90 11.75 11.75)" stroke="white" stroke-width="0.5"/>
+<path d="M4 12C4 9.79086 2.20914 8 0 8" stroke="white"/>
+</g>
+</svg>

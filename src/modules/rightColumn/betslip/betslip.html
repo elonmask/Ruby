@@ -1,0 +1,169 @@
+//popup activate
+
+<div class="activate-qb">
+	<div class="activate-qb-inner">
+		<span class="fa fa-times close-acQb"></span>
+		<h2>Selection On Your Bet Slip</h2>
+		<h4>
+			Your existing selections will need to be cleared to enable Quick Bet.
+		</h4>
+		<div class="activate-qb-buttons">
+			<button id="actQb-btn">Activate Quick Bet</button>
+			<button id="backTo-placeBet">Back to Place Bet</button>
+		</div>
+	</div>
+</div>
+
+<div class="qb-Help-Menu">
+	<h1 class="help-menu-title">Quick Single Betting</h1>
+	<ul class="help-menu-item-wrapper">
+		<li class="help-menu-item">Click a selection</li>
+		<li class="help-menu-item">Enter Stake</li>
+		<li class="help-menu-item">Press 'Place Bet'</li>
+	</ul>
+</div>
+
+
+
+<li class="single-section bs-StandardBet">
+	<ul>
+		<li class="bs-Item bs-SingleItem suspended bs-RestrictedCong oddsChange">
+			<div class="bs-SelectionRow">
+				<div class="bs-RestrictedBet"></div>
+				<div class="bs-RemoveColumn">
+					<a class="bs-RemoveColumn_Button remove"></a>
+				</div>
+				<div class="bs-Selection">
+					<div class="bs-Selection_Desc">1212</div>
+					<div class="bs-Selection_Details">asdasd</div>
+					<div class="bs-Selection_Details">asdsad</div>
+				</div>
+				<div class="bs-OddsContainer">
+					<div class="bs-Odds">12.12</div>
+					<div class="oddsChangeHighlightWrapper">
+						<div class="oddsChangeHighlight"></div>
+					</div>
+				</div>
+			</div>
+			<div class="bs-ItemOverlay"></div>
+			<div class="stake bs-StakeData">
+				<div class="bs-StakeAndToReturnContainer">
+					<div class="bs-Stake">
+						<input
+							data-inp-type="sngstk"
+							type="text"
+							class="stk bs-Stake_TextBox"
+							value="0"
+							placeholder="Stake"
+						/>
+					</div>
+					<div class="bs-StakeToReturn">
+						<div class="bs-StakeToReturn_Text">To Return</div>
+						<span class="bs-StakeToReturn_Value"></span>
+					</div>
+					<div class="bs-StakeToReturnBreakDownContainer">
+						<a
+							class="sngbrk bs-StakeToReturnBreakDownLink bs-StakeToReturnBreakDownLink_Hidden"
+							>To Return</a
+						>
+					</div>
+				</div>
+				<div class="bs-HideBetMax"></div>
+			</div>
+		</li>
+	</ul>
+</li>
+
+<li class="bs-MultipleBets">
+	<div class="bs-ItemOverlay"></div>
+	<ul class="" id="bsMultipleContainer">
+		<li class="bs-MultipleBets_Header">
+			<a
+				class="mlthd bs-MbHeader_Link"
+				id="mlthdr"
+				data-stext="Show all multiples"
+				data-htext="Hide all multiples"
+			>
+				Show all multiples
+			</a>
+		</li>
+		<li class="bs-MultipleBets_SubHeader max-height-0">
+			<div class="bs-MultipleBets_SubHeaderContainer">
+				<span class="bs-MultipleBets_BettypeHeader">Bet Type</span>
+				<span class="bs-MultipleBets_StakeHeader">
+					<span class="bs-MultipleBets_StakeHeadertext">Unit Stake</span>
+				</span>
+				<span class="bs-MultipleBets_EwHeader"></span>
+			</div>
+		</li>
+		<li
+			class="bs-Item bs-MultipleBets_BetRows bs-MultipleBets_StakeRow max-height-0"
+		>
+			<div class="bs-MultipleBets_StakeContainer" data-1="1">
+				<div class="bs-MultipleBets_StakeRowLabel">
+					<a class="mltbrk bs-MultipleBets_StakeRowLink">Одиночные</a>
+					csa
+				</div>
+				<div class="bs-MultipleBets_StakeData">
+					<div class="bs-MultipleBets_BetCount">12x</div>
+					<div class="bs-MultipleBets_Stakeitem">
+						<input
+							data-inp-type="mltstk"
+							data-system="true"
+							type="text"
+							class="stk bs-MultipleBets_Stake"
+							value="12"
+							placeholder="Unit Stake"
+						/>
+						<div class="bs-HideBetMaxMultiple"></div>
+					</div>
+				</div>
+				<div class="bs-MultipleBets_EW"></div>
+			</div>
+			<div class="bs-MultipleBets_StakeToReturn">
+				To Return:
+				<span class="multiStake-tr">12</span>
+			</div>
+		</li>
+		<li class="bs-MultipleBets_Error">
+			<div class="bs-MultipleBets_RestrictedBet"></div>
+			<div class="bs-MultipleBets_RestrictedText">
+				Multiple options are restricted for the highlighted selections
+			</div>
+		</li>
+	</ul>
+</li>
+
+<li class="bs-Alert">
+	<div class="bs-Alert_Msg"></div>
+</li>
+
+<li class="bs-EmptyMsg">
+	Click a price to add a selection
+</li>
+
+<li class="qb-QuickBetMsg-inactive">
+	<span class="qb-QuickBetMsg_Text"
+		>Quick Bet is active. Place a bet to continue.</span
+	>
+</li>
+
+<li class="bs-Footer">
+	<div class="bs-ItemOverlay"></div>
+	<span id="totalStake"></span>
+	<a class="acceptChanges bs-BtnWrapper ${!mi && 'hidden'}">
+		<div class="bs-BtnAccept">Accept Changes</div>
+	</a>
+	<a class="placeBet bs-BtnWrapper" data-placebet="1" data-atype="plc">
+		<div class="bs-Btn bs-BtnHover">
+			<span class="bs-TotalStake totalStake"></span>
+			<span class="bs-BtnText">Place Bet</span>
+		</div>
+	</a>
+	<a class="bs-BtnWrapper updatingOdds hidden">
+		<div class="bs-BtnAccept">
+			Updating Odds
+			<span class="bs-BtnText_NoMessageSpinner"></span>
+		</div>
+	</a>
+</li>

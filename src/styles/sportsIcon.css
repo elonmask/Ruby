@@ -1,0 +1,577 @@
+[class*=' sports-']:before,
+[class^='sports-']:before {
+	font-family: sportsicons;
+	speak: none;
+	font-style: normal;
+	font-weight: 400;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1.5;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	margin-top: 2px;
+}
+.icon__black {
+	filter: invert(93%) sepia(83%) saturate(1083%) hue-rotate(95deg)
+		brightness(89%) contrast(103%);
+}
+.icon__white {
+	filter: invert(93%) sepia(83%) saturate(1083%) hue-rotate(95deg)
+		brightness(89%) contrast(103%);
+}
+.icon__main {
+	filter: invert(20%) sepia(84%) saturate(2091%) hue-rotate(328deg)
+		brightness(101%) contrast(87%);
+}
+.sports-icon, .sports-icon__small  {
+	width: 35px;
+	height: 35px;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	margin: 0px auto;
+}
+.sports-icon__small {
+    width: 20px;
+    height: 20px;
+}
+.sport-icon.soccer {
+	background-image: url(../img/icon-sport/ML1BW.svg);
+}
+
+.sport-icon.soccer:hover {
+	background-image: url(../img/icon-sport/ML1.svg);
+}
+
+.sport-icon.play {
+	background-image: url(../img/icon-sport/MLVideoBW.svg);
+}
+
+.sport-icon.play:hover {
+	background-image: url(../img/icon-sport/MLVideo.svg);
+}
+
+.sport-icon.cricket {
+	background-image: url(../img/icon-sport/ML3BW.svg);
+}
+
+.sport-icon.cricket:hover {
+	background-image: url(../img/icon-sport/ML3.svg);
+}
+
+.sport-icon.golf {
+	background-image: url(../img/icon-sport/ML7BW.svg);
+}
+
+.sport-icon.golf:hover {
+	background-image: url(../img/icon-sport/ML7.svg);
+}
+
+.sport-icon.tennis {
+	background-image: url(../img/icon-sport/ML13BW.svg);
+}
+
+.sport-icon.tennis:hover {
+	background-image: url(../img/icon-sport/ML13Grass.svg);
+}
+
+.sport-icon.tennis-2 {
+	background-image: url(../img/icon-sport/ML13BW.svg);
+}
+
+.sport-icon.tennis-2:hover {
+	background-image: url(../img/icon-sport/ML13Clay.svg);
+}
+
+.sport-icon.tennis-3 {
+	background-image: url(../img/icon-sport/ML13BW.svg);
+}
+
+.sport-icon.tennis-3:hover {
+	background-image: url(../img/icon-sport/ML13Hard.svg);
+}
+
+.sport-icon.baseball {
+	width: 19px;
+	height: 19px;
+	background-image: url(../img/icon-sport/ML16BW.svg);
+}
+
+.sport-icon.baseball:hover {
+	background-image: url(../img/icon-sport/ML16.svg);
+}
+
+.sport-icon.basketball {
+	background-image: url(../img/icon-sport/ML18BW.svg);
+}
+
+.sport-icon.basketball:hover {
+	background-image: url(../img/icon-sport/ML18.svg);
+}
+
+.sport-icon.volleyball {
+	background-image: url(../img/icon-sport/ML91BW.svg);
+}
+
+.sport-icon.volleyball:hover {
+	background-image: url(../img/icon-sport/ML91.svg);
+}
+
+.sport-icon.handball {
+	background-image: url(../img/icon-sport/ML78BW.svg);
+}
+
+.sport-icon.handball:hover {
+	background-image: url(../img/icon-sport/ML78.svg);
+}
+
+.sport-icon.hockey {
+	background-image: url(../img/icon-sport/ML17BW.svg);
+}
+
+.sport-icon.hockey:hover {
+	background-image: url(../img/icon-sport/ML17.svg);
+}
+
+.sport-icon.darts {
+	background-image: url(../img/icon-sport/ML15BW.svg);
+	height: 23px !important;
+}
+
+.sport-icon.darts:hover {
+	background-image: url(../img/icon-sport/ML15.svg);
+}
+
+.sport-icon.rugby {
+	background-image: url(../img/icon-sport/ML36BW.svg);
+}
+
+.sport-icon.rugby:hover {
+	background-image: url(../img/icon-sport/ML36.svg);
+}
+
+.sport-icon.australian {
+	background-image: url(../img/icon-sport/ML36BW.svg);
+}
+
+.sport-icon.australian:hover {
+	background-image: url(../img/icon-sport/ML36.svg);
+}
+
+.sport-icon {
+	padding: 0;
+	width: 23px !important;
+	height: 13px !important;
+	background-color: transparent;
+	border: none;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	position: relative;
+	z-index: 4;
+}
+
+.sports-soccer:before {
+	content: '';
+}
+
+.sports-tennis:before {
+	content: '';
+}
+
+.sports-6:before {
+	content: '';
+}
+
+.sports-basketball:before {
+	content: '';
+}
+
+.sports-8:before {
+	/*елосипед на склоне*/
+	content: '';
+}
+
+.sports-9:before {
+	/*ботинок*/
+	content: '';
+}
+
+.sports-10:before {
+	/*велосипед*/
+	content: '';
+}
+
+.sports-rugby-union:before {
+	/*american football*/
+	content: '';
+}
+
+.sports-ice-hockey:before {
+	/*hockey*/
+	content: '';
+}
+
+.sports-golf:before {
+	content: '';
+}
+
+.sports-14:before {
+	content: '';
+}
+
+.sports-15:before {
+	content: '';
+}
+
+.sports-16:before {
+	/*voleyball ? */
+	content: '';
+}
+
+.sports-17:before {
+	content: '';
+}
+
+.sports-volleyball:before {
+	content: '';
+}
+
+.sports-21:before {
+	content: '';
+}
+
+.sports-22:before {
+	content: '';
+}
+
+.sports-23:before {
+	/*baseball*/
+	content: '';
+}
+
+.sports-24:before {
+	content: '';
+}
+
+.sports-25:before {
+	content: '';
+}
+
+.sports-26:before {
+	content: '';
+}
+
+.sports-floorball:before {
+	content: '';
+}
+
+.sports-28:before {
+	content: '';
+}
+
+.sports-horse-racing:before {
+	content: '';
+}
+
+.sports-30:before {
+	content: '';
+}
+
+.sports-31:before {
+	content: '';
+}
+
+.sports-32:before {
+	content: '';
+}
+
+.sports-33:before {
+	content: '';
+}
+
+.sports-34:before {
+	content: '';
+}
+
+.sports-35:before {
+	content: '';
+}
+
+.sports-36:before {
+	content: '';
+}
+
+.sports-greyhounds:before {
+	content: '';
+}
+
+.sports-38:before {
+	content: '';
+}
+
+.sports-39:before {
+	content: '';
+}
+
+.sports-40:before {
+	/*quadrocylec*/
+	content: '';
+}
+
+.sports-41:before {
+	content: '';
+}
+
+.sports-42:before {
+	/*motocylec*/
+	content: '';
+}
+
+.sports-43:before {
+	content: '';
+}
+
+.sports-badminton:before {
+	/*tipa tennis */
+	content: '';
+}
+
+.sports-45:before {
+	/*karate*/
+	content: '';
+}
+
+.sports-46:before {
+	/*konnie skachki*/
+	content: '';
+}
+
+.sports-47:before {
+	content: '';
+}
+
+.sports-48:before {
+	/*shlem vikinga*/
+	content: '';
+}
+
+.sports-49:before {
+	/*hockey na trave*/
+	content: '';
+}
+
+.sports-50:before {
+	/*tipa table tennis*/
+	content: '';
+}
+
+.sports-51:before {
+	/*zapliv*/
+	content: '';
+}
+
+.sports-52:before {
+	/*vodniy football*/
+	content: '';
+}
+
+.sports-53:before {
+	content: '';
+}
+
+.sports-54:before {
+	content: '';
+}
+
+.sports-55:before {
+	/*greblya*/
+	content: '';
+}
+
+.sports-table-tennis:before {
+	/*table tennis*/
+	content: '';
+}
+
+.sports-57:before {
+	/*shtanga*/
+	content: '';
+}
+
+.sports-58:before {
+	content: '';
+}
+
+.sports-59:before {
+	/*kozel*/
+	content: '';
+}
+
+.sports-60:before {
+	content: '';
+}
+
+.sports-61:before {
+	content: '';
+}
+
+.sports-62:before {
+	content: '';
+}
+
+.sports-63:before {
+	content: '';
+}
+
+.sports-64:before {
+	content: '';
+}
+
+.sports-65:before {
+	content: '';
+}
+
+.sports-66:before {
+	content: '';
+}
+
+.sports-67:before {
+	/*shahmaty*/
+	content: '';
+}
+
+.sports-68:before {
+	content: '';
+}
+
+.sports-69:before {
+	/*konki*/
+	content: '';
+}
+
+.sports-70:before {
+	/*ball*/
+	content: '';
+}
+
+.sports-71:before {
+	content: '';
+}
+
+.sports-72:before {
+	/*sanki*/
+	content: '';
+}
+
+.sports-73:before {
+	content: '';
+}
+
+.sports-74:before {
+	content: '';
+}
+
+.sports-75:before {
+	content: '';
+}
+
+.sports-76:before {
+	/*karty*/
+	content: '';
+}
+
+.sports-77:before {
+	content: '';
+}
+
+.sports-78:before {
+	/*shpaga*/
+	content: '';
+}
+
+.sports-79:before {
+	/*pistolet*/
+	content: '';
+}
+
+.sports-80:before {
+	/*konnie skachki*/
+	content: '';
+}
+
+.sports-81:before {
+	content: '';
+}
+
+.sports-82:before {
+	content: '';
+}
+
+.sports-83:before {
+	/*konki*/
+	content: '';
+}
+
+.sports-84:before {
+	content: '';
+}
+
+.sports-85:before {
+	content: '';
+}
+
+.sports-86:before {
+	content: '';
+}
+
+.sports-87:before {
+	content: '';
+}
+
+.sports-88:before {
+	content: '';
+}
+
+.sports-89:before {
+	content: '';
+}
+
+.sports-90:before {
+	content: '';
+}
+
+.sports-91:before {
+	content: '';
+}
+
+.sports-92:before {
+	content: '';
+}
+
+.sports-93:before {
+	content: '';
+}
+
+.sports-94:before {
+	content: '';
+}
+
+.sports-95:before {
+	content: '';
+}
+
+.sports-96:before {
+	content: '';
+}
+
+.sports-97:before {
+	content: '';
+}
+
+.sports-98:before {
+	content: '';
+}
+
+.sports-99:before {
+	content: '';
+}

@@ -1,0 +1,130 @@
+.play {
+    margin-bottom: 10px;
+}
+
+.play-category {
+    background-color: #fafafa;
+    height: 34px;
+    padding: 0 25px 0 10px;
+    cursor: pointer;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    position: relative;
+    margin-bottom: 1px;
+}
+
+.play-category:before {
+    content: "";
+    position: absolute;
+    font-family: FontAwesome;
+    color: #000;
+    font-size: 20px;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.play-category:hover {
+    background-color: #fff;
+}
+
+.play-category.closed:hover:before {
+    content: "\f107";
+}
+
+.play-category.open:hover:before {
+    content: "\f106";
+}
+
+.play-category-icon {
+    -ms-flex-order: 1;
+    order: 1;
+    color: #000;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.play-category-text {
+    -ms-flex-order: 2;
+    order: 2;
+    color: #000;
+    text-transform: uppercase;
+}
+
+.play-subcategory {
+    background-color: #281420;
+    height: 34px;
+    padding: 0 10px;
+    cursor: pointer;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    position: relative;
+    margin-bottom: 1px;
+}
+
+.play-subcategory:before {
+    content: "";
+    position: absolute;
+    font-family: FontAwesome;
+    font-size: 20px;
+    color: #fff;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.play-subcategory:hover {
+    background-color: #391d2e;
+}
+
+.play-subcategory.closed:hover:before {
+    content: "\f107";
+}
+
+.play-subcategory.open:hover:before {
+    content: "\f106";
+}
+
+.play-subcategory-icon {
+    height: auto;
+    max-width: 23px;
+    margin-right: 5px;
+}
+
+.play-subcategory-text {
+    color: #fff;
+}
+
+.play-link {
+    background-color: #6c3757;
+    padding: 10px;
+    cursor: pointer;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    position: relative;
+    margin-bottom: 1px;
+}
+
+.play-link .play {
+    margin-bottom: 0;
+}
+
+.play-link-block:first-child {
+    width: 65%;
+    -ms-flex-order: 1;
+    order: 1;
+}
+
+.play-link-block:last-child {
+    width: 15%;
+    -ms-flex-order: 2;
+    order: 2;
+}

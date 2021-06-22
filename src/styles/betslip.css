@@ -1,0 +1,979 @@
+.betSlip {
+	position: relative;
+}
+.betSlip .bs-Header .bs-ChangeSlipTypeContainer .bs-BetSlipType .bet-slip-type {
+	display: none;
+}
+
+.betSlip .bs-Header .bs-ChangeSlipTypeContainer .qb-Help_Wrapper-inactive {
+	display: none;
+	position: relative;
+}
+.betSlip
+	.bs-Header
+	.bs-ChangeSlipTypeContainer
+	.qb-Help_Wrapper-inactive
+	.qb-Help {
+	cursor: pointer;
+}
+.betSlip
+	.bs-Header
+	.bs-ChangeSlipTypeContainer
+	.qb-Help_Wrapper-inactive
+	.qb-Help-Menu {
+	background: #1c202a;
+	position: absolute;
+	top: 24px;
+	z-index: 10;
+	right: 0px;
+	min-width: 180px;
+	max-width: 180px;
+	border: 5px solid #50545c;
+	border-radius: 5px;
+}
+.betSlip
+	.bs-Header
+	.bs-ChangeSlipTypeContainer
+	.qb-Help_Wrapper-inactive
+	.qb-Help-Menu::after {
+	content: '';
+	position: absolute;
+	top: -18px;
+	right: 0px;
+	border-top: 5px solid transparent;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-bottom: 10px solid #50545c;
+}
+.betSlip
+	.bs-Header
+	.bs-ChangeSlipTypeContainer
+	.qb-Help_Wrapper-inactive
+	.qb-Help-Menu
+	.help-menu-title {
+	text-align: center;
+	margin: 5px 0px;
+	font-weight: 100;
+	font-size: 15px;
+}
+.betSlip
+	.bs-Header
+	.bs-ChangeSlipTypeContainer
+	.qb-Help_Wrapper-inactive
+	.qb-Help-Menu
+	.help-menu-item-wrapper {
+	display: flex;
+	flex-direction: column;
+}
+.betSlip
+	.bs-Header
+	.bs-ChangeSlipTypeContainer
+	.qb-Help_Wrapper-inactive
+	.qb-Help-Menu
+	.help-menu-item-wrapper
+	.help-menu-item {
+	margin: 3px 0px 3px 28px;
+	position: relative;
+	font-size: 13px;
+	color: #d1d1d1;
+}
+.betSlip
+	.bs-Header
+	.bs-ChangeSlipTypeContainer
+	.qb-Help_Wrapper-inactive
+	.qb-Help-Menu
+	.help-menu-item-wrapper
+	.help-menu-item::after {
+	content: '';
+	position: absolute;
+	left: -16px;
+	top: 3px;
+	background: #419b41;
+	width: 10px;
+	height: 10px;
+	border-radius: 5px;
+}
+
+.betSlip .bs-Header .bs-Header_RemoveAll {
+	background: #81808cfc;
+	border-top: 1px solid #4a0413;
+	padding: 5px 10px;
+}
+.betSlip .bs-Header .bs-Header_RemoveAll a {
+	font-size: 13px;
+	color: #e8e8e8;
+}
+.betSlip.bs-Header .bs-Header_RemoveAll .bs-ItemOverlay {
+}
+.betSlip.bs-Header .bs-Header_RemoveAll .bs-Header_RemoveAllLink {
+}
+
+.betSlip .bs-StandardBet ul,
+.betSlip .bs-BankerBet ul {
+	padding: 5px;
+}
+.betSlip .bs-StandardBet ul .bs-SingleItem,
+.betSlip .bs-BankerBet ul .bs-SingleItem {
+	background: #4a4958;
+	border-bottom: 1px solid #2e323d;
+	position: relative;
+}
+.bs-SingleItem .bs-SelectionRow {
+	min-height: 75px !important;
+}
+.betSlip
+	.bs-StandardBet
+	ul
+	.bs-RestrictedCong
+	.bs-SelectionRow
+	.bs-RestrictedBet {
+	display: block !important;
+}
+.betSlip .bs-StandardBet ul .bs-SingleItem .bs-SelectionRow .bs-RestrictedBet,
+.betSlip .bs-BankerBet ul .bs-SingleItem .bs-RestrictedBet {
+	display: none;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	height: 100%;
+	width: 3px;
+	background: #bc051a;
+}
+.bs-SingleItem .bs-SelectionRow .bs-RemoveColumn,
+.bs-SingleItem .bs-RemoveColumn {
+	position: absolute;
+	top: 15px;
+	left: 5px;
+	z-index: 16;
+	width: 15px;
+	height: 15px;
+	cursor: pointer;
+}
+
+.bs-SingleItem .bs-SelectionRow .bs-RemoveColumn .bs-RemoveColumn_Button,
+.bs-SingleItem .bs-RemoveColumn .bs-RemoveColumn_Button {
+	position: relative;
+}
+.bs-SingleItem .bs-SelectionRow .bs-RemoveColumn .bs-RemoveColumn_Button::after,
+.bs-SingleItem .bs-RemoveColumn .bs-RemoveColumn_Button::after,
+.bs-SingleItem .bs-SelectionRow .bs-RemoveColumn .bs-RemoveColumn_Button::before,
+.bs-SingleItem .bs-RemoveColumn .bs-RemoveColumn_Button::before  {
+	content: '';
+	position: absolute;
+	top: 1px;
+	left: 7px;
+	width: 2px;
+	height: 13px;
+	background: #ffffff;
+}
+
+.bs-SingleItem .bs-SelectionRow .bs-RemoveColumn .bs-RemoveColumn_Button:hover::after,
+.bs-SingleItem .bs-RemoveColumn .bs-RemoveColumn_Button:hover::after,
+.bs-SingleItem .bs-SelectionRow .bs-RemoveColumn .bs-RemoveColumn_Button:hover::before,
+.bs-SingleItem .bs-RemoveColumn .bs-RemoveColumn_Button:hover::before {
+	background-color: #a71633;
+}
+
+.bs-SingleItem .bs-SelectionRow .bs-RemoveColumn .bs-RemoveColumn_Button::after,
+.bs-SingleItem .bs-RemoveColumn .bs-RemoveColumn_Button::after {
+	transform-origin: center center;
+	transform: rotate(-45deg);
+}
+
+.bs-SingleItem .bs-SelectionRow .bs-RemoveColumn .bs-RemoveColumn_Button::before,
+.bs-SingleItem .bs-RemoveColumn .bs-RemoveColumn_Button::before {
+	transform-origin: center center;
+	transform: rotate(45deg);
+}
+
+.betSlip .bs-StandardBet ul .bs-SingleItem .bs-SelectionRow .bs-Selection,
+.betSlip .bs-BankerBet ul .bs-SingleItem .bs-Selection {
+	padding: 10px 35px 10px 26px;
+}
+.bs-Selection.bs-Selection__placeBet {
+	padding: 10px 25px 10px 15px !important;
+}
+.betSlip
+	.bs-StandardBet
+	ul
+	.bs-SingleItem
+	.bs-SelectionRow
+	.bs-Selection
+	.bs-Selection_Desc,
+.betSlip .bs-BankerBet ul .bs-SingleItem .bs-Selection .bs-Selection_Desc {
+	color: #ffffff;
+	font-size: 17px;
+	width: 190px;
+
+	display: flex;
+	justify-content: space-between;
+}
+.betSlip
+	.bs-StandardBet
+	ul
+	.bs-SingleItem
+	.bs-SelectionRow
+	.bs-Selection
+	.bs-Selection_Handicap {
+	width: 55px;
+	height: 28px;
+	font-size: 14px;
+	font-weight: 400;
+	text-align: center;
+	line-height: 28px;
+}
+.betSlip
+	.bs-StandardBet
+	ul
+	.bs-SingleItem
+	.bs-SelectionRow
+	.bs-Selection
+	.bs-Selection_Details,
+.betSlip
+	.bs-BankerBet
+	ul
+	.bs-SingleItem
+	.bs-Selection
+	.bs-BankerSelection_Details {
+	margin: 4px 0px;
+	color: #f4f4f4;
+	font-weight: 400;
+	font-size: 13px;
+	overflow: hidden;
+	white-space: nowrap;
+	max-width: 230px;
+	text-overflow: ellipsis;
+}
+.betSlip .bs-StandardBet ul .bs-SingleItem .bs-SelectionRow .bs-OddsContainer,
+.betSlip .bs-BankerBet ul .bs-SingleItem .bs-OddsContainer {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	margin-right: 20px;
+	width: 55px;
+	height: 20px;
+}
+
+.betSlip
+	.bs-StandardBet
+	ul
+	.bs-SingleItem
+	.bs-SelectionRow
+	.bs-OddsContainer
+	.bs-Odds {
+	background: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 5px 0px;
+}
+
+.betSlip .oddsChange .bs-Odds {
+	background: #c8304d !important;
+}
+.betSlip .hcapChange .bs-Selection_Handicap {
+	background: #c8304d !important;
+}
+
+.betSlip
+	.bs-StandardBet
+	ul
+	.bs-SingleItem
+	.bs-SelectionRow
+	.bs-OddsContainer
+	.oddsChangeHighlightWrapper {
+	/* position: relative;*/
+}
+.betSlip
+	.bs-StandardBet
+	ul
+	.bs-SingleItem
+	.bs-SelectionRow
+	.bs-OddsContainer
+	.oddsChangeHighlightWrapper
+	.oddsChangeHighlight {
+}
+.betSlip .bs-StandardBet ul .bs-SingleItem .bs-SelectionRow .bs-StakeData {
+}
+.betSlip .bs-StandardBet ul .suspended .bs-ItemOverlay {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	z-index: 15;
+	width: 100%;
+	height: 100%;
+	background: #292833;
+	opacity: 0.3;
+}
+.betSlip
+	.bs-StandardBet
+	ul
+	.bs-SingleItem
+	.bs-StakeData
+	.bs-StakeAndToReturnContainer {
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	padding: 5px 23px;
+}
+.betSlip
+	.bs-StandardBet
+	ul
+	.bs-SingleItem
+	.bs-StakeData
+	.bs-StakeAndToReturnContainer
+	.bs-Stake
+	input {
+	width: 100px;
+	padding: 7px;
+	border: none;
+	border-radius: 10px;
+	background: #0000004f;
+	color: #ffffff;
+}
+.betSlip
+	.bs-StandardBet
+	ul
+	.bs-SingleItem
+	.bs-StakeData
+	.bs-StakeAndToReturnContainer
+	.bs-Stake
+	input::placeholder {
+	color: #bbbbbb;
+	text-align: center;
+}
+.betSlip
+	.bs-StandardBet
+	ul
+	.bs-SingleItem
+	.bs-StakeData
+	.bs-StakeAndToReturnContainer
+	.bs-StakeToReturn {
+	display: flex;
+}
+.betSlip
+	.bs-StandardBet
+	ul
+	.bs-SingleItem
+	.bs-StakeData
+	.bs-StakeAndToReturnContainer
+	.bs-StakeToReturn
+	.bs-StakeToReturn_Text {
+	padding-right: 5px;
+}
+.betSlip
+	.bs-StandardBet
+	ul
+	.bs-SingleItem
+	.bs-StakeData
+	.bs-StakeAndToReturnContainer
+	.bs-StakeToReturnBreakDownContainer {
+	position: absolute;
+	right: 5px;
+	bottom: 5px;
+	display: none;
+}
+
+.betSlip .bs-BankerBet ul .bs-SingleItem .bs-BankerIndicator_Btn {
+	position: absolute;
+	right: 0px;
+	top: 1px;
+	z-index: 10;
+	width: 20px;
+	height: 99%;
+	border: 1px solid #494545;
+	text-align: center;
+	line-height: 65px;
+	background: #81808cfc;
+	cursor: pointer;
+}
+
+.betSlip .bs-BankerBet ul .bs-SingleItem .bs-BankerIndicator_Btn:hover {
+	background: rgba(154, 153, 165, 0.99);
+}
+
+.betSlip .bs-BankerBet ul .bs-SingleItem .active {
+	color: #b32b45;
+	background: #dce0eb;
+}
+
+.betSlip .bs-MultipleBets {
+	padding: 0px 5px 5px 5px;
+}
+.betSlip .bs-MultipleBets ul .bs-MultipleBets_Header,
+.betSlip .bs-MultipleBets ul .bs-MultipleBets_SubHeader {
+	background: #81808cfc;
+	border-bottom: 1px solid #929191;
+	max-height: 100px;
+	overflow: hidden;
+}
+.betSlip .bs-MultipleBets ul .bs-MultipleBets_Header {
+	padding: 5px 0px;
+}
+.betSlip .bs-MultipleBets ul .bs-MultipleBets_SubHeader.max-height-0 {
+	border-bottom: none;
+}
+
+.betSlip .bs-MultipleBets ul .bs-MultipleBets_Header .bs-MbHeader_Link {
+	font-size: 15px;
+	color: #eae6e6;
+	position: relative;
+	padding: 0px 5px;
+}
+.betSlip .bs-MultipleBets ul .bs-MultipleBets_Header .open::before {
+	content: '';
+	position: absolute;
+	right: -15px;
+	top: 4px;
+
+	border-bottom: 2px solid #eae6e6;
+	border-right: 2px solid #eae6e6;
+	border-radius: 2px;
+	width: 8px;
+	height: 8px;
+	transform: rotate(45deg);
+}
+.betSlip .bs-MultipleBets ul .bs-MultipleBets_Header .closed::before {
+	content: '';
+	position: absolute;
+	right: -15px;
+	top: 6px;
+
+	border-bottom: 2px solid #eae6e6;
+	border-right: 2px solid #eae6e6;
+	border-radius: 2px;
+	width: 8px;
+	height: 8px;
+	transform: rotate(-45deg);
+}
+.betSlip
+	.bs-MultipleBets
+	ul
+	.bs-MultipleBets_SubHeader
+	.bs-MultipleBets_SubHeaderContainer {
+	display: flex;
+	justify-content: space-between;
+	padding: 5px;
+}
+.betSlip
+	.bs-MultipleBets
+	ul
+	.bs-MultipleBets_SubHeader
+	.bs-MultipleBets_SubHeaderContainer
+	span {
+	color: #eae6e6;
+	font-size: 13px;
+}
+
+.betSlip
+	.bs-MultipleBets
+	ul
+	.bs-MultipleBets_SubHeader
+	.bs-MultipleBets_SubHeaderContainer
+	.bs-MultipleBets_EwHeader {
+	display: none;
+}
+.betSlip .bs-MultipleBets ul .bs-MultipleBets_StakeRow {
+	border-bottom: 1px solid #707072;
+	max-height: 100px;
+	transition: max-height 0.2s;
+}
+/*.betSlip .bs-MultipleBets ul .bs-MultipleBets_BetRow {*/
+/*    border-bottom: 1px solid #707072;*/
+/*}*/
+.betSlip .bs-MultipleBets ul .bs-MultipleBets_BetRows {
+	overflow: hidden;
+	max-height: 100px;
+	transition: max-height 0.2s;
+}
+.betSlip .bs-MultipleBets ul .bs-MultipleBets_BetRow:last-child {
+	border-bottom: none;
+}
+
+.betSlip .bs-MultipleBets ul .bs-MultipleBets_Error {
+	padding: 5px;
+	margin-top: 4px;
+	position: relative;
+}
+.betSlip
+	.bs-MultipleBets
+	ul
+	.bs-MultipleBets_Error
+	.bs-MultipleBets_RestrictedBet {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	height: 100%;
+	width: 3px;
+	background: #9b0b0a;
+}
+.betSlip
+	.bs-MultipleBets
+	ul
+	.bs-MultipleBets_Error
+	.bs-MultipleBets_RestrictedText {
+	text-align: center;
+}
+
+.betSlip .bs-MultipleBets ul .bs-Item .bs-MultipleBets_StakeContainer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 5px;
+	font-size: 13px;
+	background: #4a4958;
+	overflow: hidden;
+}
+
+.betSlip
+	.bs-MultipleBets
+	ul
+	.bs-Item
+	.bs-MultipleBets_StakeContainer
+	.bs-MultipleBets_StakeData {
+	display: flex;
+	align-items: center;
+}
+
+.betSlip
+	.bs-MultipleBets
+	ul
+	.bs-Item
+	.bs-MultipleBets_StakeContainer
+	.bs-MultipleBets_StakeData
+	.bs-MultipleBets_BetCount {
+	padding-right: 5px;
+}
+.betSlip
+	.bs-MultipleBets
+	ul
+	.bs-Item
+	.bs-MultipleBets_StakeContainer
+	.bs-MultipleBets_StakeData
+	.stk {
+	border: none;
+	border-radius: 5px;
+	width: 85px;
+	background-color: rgba(0, 0, 0, 0.42);
+	padding: 5px 10px;
+	color: #ffffff;
+}
+.betSlip
+	.bs-MultipleBets
+	ul
+	.bs-Item
+	.bs-MultipleBets_StakeContainer
+	.bs-MultipleBets_StakeData
+	.stk::placeholder {
+	color: #bbbbbb;
+}
+
+.betSlip
+	.bs-MultipleBets
+	ul
+	.bs-Item
+	.bs-MultipleBets_StakeContainer
+	.bs-MultipleBets_StakeRowLabel
+	.mltbrk {
+	color: #ffffff;
+	cursor: pointer;
+}
+.betSlip
+	.bs-MultipleBets
+	ul
+	.bs-Item
+	.bs-MultipleBets_StakeContainer
+	.bs-MultipleBets_StakeRowLabel
+	.mltbrk:hover {
+	color: #bbbbbb;
+}
+
+.betSlip
+	.bs-MultipleBets
+	ul
+	.bs-Item
+	.bs-MultipleBets_StakeContainer
+	.bs-MultipleBets_EW {
+	display: none;
+}
+.bs-MultipleBets_StakeToReturn {
+	text-align: right;
+	padding: 3px;
+	font-size: 12px;
+	background: #4a4958;
+	border-bottom: 1px solid #636363;
+}
+.betSlip .bs-Footer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	padding: 0px 5px 5px 5px;
+}
+.betSlip .bs-Footer .bs-ItemOverlay {
+	/*position: absolute;*/
+	/*width: 100%;*/
+	/*height: 100%;*/
+	/*top: 0px;*/
+	/*left: 0px;*/
+}
+
+.betSlip .bs-Footer .bs-BtnWrapper {
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	padding: 10px 0px;
+
+	color: #ffffff;
+	font-size: 18px;
+	font-weight: 500;
+	cursor: pointer;
+}
+
+.betSlip .bs-Footer .placeBet,
+.betSlip .bs-Footer .acceptChanges {
+	background: #c8304d;
+	color: #ffffff;
+}
+
+.betSlip .bs-Footer .placeBet:hover,
+.betSlip .bs-Footer .placeBet.disabled,
+.betSlip .bs-Footer .acceptChanges:hover {
+	background: #7c1734;
+	color: #c3c3c3;
+}
+
+.betSlip .bs-Alert {
+	text-align: center;
+	padding: 5px;
+}
+.betSlip .bs-Alert .red {
+	border-bottom: 2px solid red;
+}
+.betSlip .bs-Alert .green {
+	border-bottom: 2px solid green;
+}
+.betSlip .bs-Alert .blue {
+	border-bottom: 2px solid blue;
+}
+.betSlip {
+	background: #292833;
+	position: relative;
+	min-height: 140px;
+}
+
+.betSlip .bs-Header {
+	background: #c8304d;
+	position: relative;
+}
+.betSlip .bs-EmptyMsg {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 140px;
+}
+
+.betSlip .qb-QuickBetMsg-inactive {
+	display: none;
+	align-items: center;
+	justify-content: center;
+	min-height: 100px;
+}
+
+.betSlip .bs-Header .bs-ChangeSlipTypeContainer {
+	display: flex;
+	justify-content: space-between;
+	/*padding: 5px 10px;*/
+}
+
+.betSlip .bs-Header .bs-ChangeSlipTypeContainer .bs-ItemOverlay {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0px;
+	left: 0px;
+	display: none;
+}
+
+.betSlip .bs-Header .bs-ChangeSlipTypeContainer .qb-Container .qb-Btn {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	cursor: pointer;
+}
+
+.betSlip
+	.bs-Header
+	.bs-ChangeSlipTypeContainer
+	.qb-Container
+	.qb-Btn
+	.qb-Btn_Switch-false,
+.betSlip
+	.bs-Header
+	.bs-ChangeSlipTypeContainer
+	.qb-Container
+	.qb-Btn
+	.qb-Btn_Switch-true {
+	width: 35px;
+	height: 18px;
+	margin-left: 10px;
+	background: #292833;
+	border-radius: 20px;
+	border: 1px solid #302e2e54;
+	position: relative;
+}
+
+.betSlip
+	.bs-Header
+	.bs-ChangeSlipTypeContainer
+	.qb-Container
+	.qb-Btn
+	.qb-Btn_Switch-false::after {
+	content: '';
+	position: absolute;
+	top: 0px;
+	left: 0px;
+
+	width: 17px;
+	height: 16px;
+	border-radius: 20px;
+	background: #9b0b0a;
+}
+
+.betSlip
+	.bs-Header
+	.bs-ChangeSlipTypeContainer
+	.qb-Container
+	.qb-Btn
+	.qb-Btn_Switch-true::after {
+	content: '';
+	position: absolute;
+	top: 0px;
+	right: 0px;
+
+	width: 17px;
+	height: 16px;
+	border-radius: 20px;
+	background: #419b41;
+}
+
+.betSlip .bs-Header .bs-ChangeSlipTypeContainer .bs-BetSlipType {
+	position: relative;
+}
+.betSlip .bs-Header .bs-ChangeSlipTypeContainer .qb-BetSlipType {
+}
+.betSlip
+	.bs-Header
+	.bs-ChangeSlipTypeContainer
+	.bs-BetSlipType
+	.bs-BetSlipType_Selection {
+	position: relative;
+	padding-right: 25px;
+	cursor: pointer;
+}
+.betSlip
+	.bs-Header
+	.bs-ChangeSlipTypeContainer
+	.bs-BetSlipType
+	.bs-BetSlipType_Selection-disabled {
+	color: #ffffff7d;
+	cursor: default;
+}
+.betSlip
+	.bs-Header
+	.bs-ChangeSlipTypeContainer
+	.bs-BetSlipType
+	.bs-BetSlipType_Selection:hover {
+	color: rgb(225, 232, 221);
+}
+
+.betSlip
+	.bs-Header
+	.bs-ChangeSlipTypeContainer
+	.bs-BetSlipType
+	.bs-BetSlipType_Selection
+	.bs-BetSlipType_SelectionText {
+}
+
+.betSlip
+	.bs-Header
+	.bs-ChangeSlipTypeContainer
+	.bs-BetSlipType
+	.bs-BetSlipType_Selection
+	.bs-BetSlipType_SelectionText::after {
+	content: '';
+	position: absolute;
+	right: 10px;
+	top: 1px;
+	border-right: 2px solid #ffffff;
+	border-bottom: 2px solid #ffffff;
+	border-radius: 2px;
+	width: 8px;
+	height: 8px;
+	transform: rotate(45deg);
+}
+
+.betSlip.bs-Header
+	.bs-ChangeSlipTypeContainer
+	.bs-BetSlipType
+	.bs-BetSlipType_Selection
+	.bs-BetSlipType_SelectionText:hover {
+	color: #98a3a8;
+}
+
+.betSlip
+	.bs-Header
+	.bs-ChangeSlipTypeContainer
+	.bs-BetSlipType
+	.bs-BetSlipType_Options {
+	position: absolute;
+	top: 20px;
+	right: 0px;
+	z-index: 20;
+	background: #5c6072;
+	width: 110px;
+	height: 60px;
+	transition: max-height 0.5s;
+}
+.betSlip
+	.bs-Header
+	.bs-ChangeSlipTypeContainer
+	.bs-BetSlipType
+	.bs-BetSlipType_Options
+	.showBetslipDrop {
+	max-height: 60px;
+}
+
+.betSlip
+	.bs-Header
+	.bs-ChangeSlipTypeContainer
+	.bs-BetSlipType
+	.bs-BetSlipType_Options
+	.hide {
+	max-height: 0px;
+}
+.betSlip .bs-Header .bs-ChangeSlipTypeContainer .bs-BetSlipType .bs-Dropdown {
+	display: none;
+}
+.betSlip
+	.bs-Header
+	.bs-ChangeSlipTypeContainer
+	.bs-BetSlipType
+	.bs-Dropdown-show {
+	display: block;
+}
+.betSlip
+	.bs-Header
+	.bs-ChangeSlipTypeContainer
+	.bs-BetSlipType
+	.bs-BetSlipType_Options
+	.bs-Dropdown_Items {
+	height: 100%;
+	box-shadow: 0px 0px 2px 1px #22222a;
+}
+.betSlip
+	.bs-Header
+	.bs-ChangeSlipTypeContainer
+	.bs-BetSlipType
+	.bs-BetSlipType_Options
+	.bs-Dropdown_Items
+	.bs-Dropdown_Item {
+	padding: 5px;
+	color: #fff;
+	border-bottom: 1px solid #4b4e5a;
+	cursor: pointer;
+	text-align: center;
+	width: 100%;
+	height: 50%;
+}
+.betSlip
+	.bs-Header
+	.bs-ChangeSlipTypeContainer
+	.bs-BetSlipType
+	.bs-BetSlipType_Options
+	.bs-Dropdown_Items
+	.bs-Dropdown_Item:last-child {
+	border-bottom: none;
+}
+.stake_limit-error {
+	border: 2px solid #c8304d !important;
+	color: #c8304d !important;
+}
+.bs_placeBet__header {
+	padding: 10px;
+	background: #292833;
+}
+.bs_placeBet__header_left__title {
+	font-size: 17px;
+}
+.bs_placeBet__success_icon {
+	width: 35px;
+	height: 35px;
+	background: #cf2949;
+	border-radius: 20px;
+	margin-right: 5px;
+}
+.success_icon {
+	font-size: 19px;
+}
+.bs_placeBet__header_left__subtitle {
+	color: #cf2949;
+	font-size: 13px;
+	font-weight: 700;
+}
+.bs_placeBet__header_right:hover {
+	background: #23222d;
+}
+.bs_placeBet__header_done {
+	border: 0px;
+	background: none;
+	cursor: pointer;
+	font-size: 17px;
+	color: #fff;
+}
+.bs-OddsContainer.placeBet__left {
+	margin-right: 0px !important;
+}
+.placeBet_userStake {
+	position: absolute;
+	top: 40px;
+	right: 20px;
+}
+.placeBet__returnValue {
+	color: #dddddd;
+	font-size: 11px;
+	padding-right: 15px;
+}
+.bs_placeBet__footer__wrap {
+	padding: 0px 5px 5px 5px;
+}
+.bs_placeBet__footer {
+	color: #ffffff;
+	padding: 10px;
+	background: #c8304d;
+}
+.bs-MultipleBets_Error {
+	padding: 10px 15px;
+	margin: 5px 0px 7px 0px;
+	font-size: 20px;
+	color: #c8304d;
+	border-left: 5px solid #c8304d;
+	width: 100%;
+}
+.bs__loader {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	background: rgba(14, 14, 14, 0.31);
+	z-index: 5;
+}
+
+input[type="text"]::placeholder {   
+	text-align: left !important; 
+} 

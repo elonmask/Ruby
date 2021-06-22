@@ -1,0 +1,388 @@
+/*style-for usermanu*/
+.user-menu {
+  background-color: #391d2e;
+  padding: 5px;
+  min-width: 200px;
+  position: relative;
+}
+.user-menu-wrapper,
+.user-menu-links {
+  background-color: #5b2e49;
+  position: relative;
+}
+.user-menu-wrapper {
+  padding: 20px;
+}
+.user-account-setting {
+  position: absolute;
+  top: 10px;
+  right: 5px;
+}
+.user-account-setting button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 20px;
+}
+.user-setting-menu {
+  background: #5b2e49;
+  border-top: 1px solid #9a9a9a30;
+  min-width: 260px;
+}
+.user-setting-menu-item {
+  width: 100%;
+  border-bottom: 1px solid #9a9a9a30;
+}
+.user-setting-menu-item-header {
+  position: relative;
+  padding: 5px;
+}
+.user-setting-menu-item.active .user-setting-menu-item-header {
+  background: #391d2e;
+}
+.user-setting-menu-item-header:hover {
+  cursor: pointer;
+  background: #391d2e;
+}
+.user-setting-menu-item .user-setting-menu-item-header h4 {
+  color: #e1e1e1;
+  font-size: 14px;
+  font-weight: 300;
+}
+.user-setting-menu-item .user-setting-menu-item-header .current-active-option {
+  color: #ffffff;
+  font-size: 16px;
+  padding: 5px 0px;
+}
+.user-setting-menu-item .user-setting-menu-item-header .row {
+  position: absolute;
+  top: 10px;
+  right: 6px;
+  color: #c3c3c3;
+}
+.user-setting-menu-item .user-setting-menu-item-header .row::before {
+  content: "\f107";
+  font-family: "FontAwesome";
+  font-size: 20px;
+}
+.user-setting-menu-item .user-setting-menu-item-inner {
+  overflow-y: auto;
+}
+
+.user-setting-menu-item .user-setting-menu-item-inner::-webkit-scrollbar {
+  width: 5px;
+}
+.user-setting-menu-item .user-setting-menu-item-inner::-webkit-scrollbar-track {
+  background: #cbcbcb66;
+}
+.user-setting-menu-item .user-setting-menu-item-inner::-webkit-scrollbar-thumb {
+  background: #332234;
+  border-radius: 5px;
+}
+.user-setting-menu-item .user-setting-menu-item-inner.hide {
+  max-height: 0px;
+  overflow: hidden;
+}
+.user-setting-menu-item .user-setting-menu-item-inner.show {
+  max-height: 240px;
+  flex-direction: column;
+  background: #5b2e49;
+}
+.user-setting-menu-item .user-setting-option {
+  color: #e1e1e1;
+  padding: 5px 0px 5px 20px;
+  cursor: pointer;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+.user-setting-menu-item .user-setting-option:last-child {
+  border-bottom: none;
+}
+.user-setting-menu-item .user-setting-option:hover {
+  background: #391d2e;
+}
+.user-menu-img {
+  height: 80px;
+  width: 80px;
+  background-color: #391d2e;
+  -webkit-border-radius: 100%;
+  border-radius: 100%;
+  position: relative;
+  margin: 0 auto 10px auto;
+  cursor: pointer;
+}
+.user-menu-img:before {
+  content: "\f2c0";
+  font-family: FontAwesome;
+  font-size: 38px;
+  color: rgba(255, 255, 255, 0.6);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.user-menu-name {
+  color: #fff;
+  font-size: 18px;
+}
+.user-menu-email {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 16px;
+}
+.user-menu-separate {
+  border: none;
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.6);
+  margin: 20px 0;
+}
+.user-menu-text {
+  color: rgba(255, 255, 255, 0.6);
+}
+.user-menu-big {
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 3px;
+  margin-bottom: 10px;
+}
+.user-menu-big:last-child {
+  margin-bottom: 0;
+}
+.user-menu-big.primary {
+  color: #fff;
+}
+.user-menu-big.second {
+  color: yellow;
+}
+.user-menu-link {
+  position: relative;
+  padding: 10px 30px 10px 10px;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+.user-menu-link * {
+  color: rgba(255, 255, 255, 0.6);
+  margin-right: 5px;
+}
+.user-menu-link:hover,
+.user-menu-link.active {
+  background-color: #391d2e;
+}
+.user-menu-link:hover *,
+.user-menu-link.active * {
+  color: #fff;
+}
+.user-menu-notification {
+  height: 20px;
+  width: 20px;
+  background-color: #c8304d;
+  -webkit-border-radius: 100%;
+  border-radius: 100%;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  right: 10px;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.user-menu-notification:before {
+  content: "\f12a";
+  color: #fff;
+  font-family: FontAwesome;
+  line-height: 1.5;
+}
+
+/*user setting account*/
+.setting {
+  margin-bottom: 10px;
+  background-color: #281420;
+}
+.setting-nav {
+  position: relative;
+  height: 50px;
+}
+.setting-nav:after {
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: #c8304d;
+}
+.setting-nav-link {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  padding: 10px;
+  height: 100%;
+  width: 50%;
+  margin-right: 1px;
+  color: rgba(255, 255, 255, 0.5);
+  background-color: #9f263d;
+}
+.setting-nav-link:last-child {
+  margin-right: 0;
+}
+.setting-nav-link.active,
+.setting-nav-link:hover {
+  background-color: #c8304d;
+}
+.setting-nav-link.active *,
+.setting-nav-link:hover * {
+  color: #fff;
+}
+.setting-nav-link.small {
+  width: auto;
+}
+.setting-box.primary {
+  padding: 10px;
+  margin-top: 10px;
+}
+.setting-box.primary .setting-nav {
+  height: 40px;
+}
+.setting-box.second {
+  padding: 10px 0;
+  background-color: #281420;
+}
+.setting-box.third {
+  margin-top: 10px;
+  padding: 0;
+  background-color: #281420;
+}
+.setting-table {
+  background-color: #281420 !important;
+  width: 100%;
+  display: table;
+  border-collapse: unset;
+  border-spacing: 2px;
+}
+.setting-table * {
+  color: #fff;
+}
+.setting-table > .row {
+  display: table-row;
+  width: 100%;
+}
+.setting-table > .row > .cell {
+  display: table-cell;
+  width: auto;
+  vertical-align: bottom;
+}
+.setting-table > .row > .cell > .flex-container {
+  height: 34px;
+  position: relative;
+}
+.setting-table > .row > .cell > .flex-container.primary {
+  background-color: #343341;
+}
+.setting-table > .row > .cell > .flex-container.second {
+  background-color: #33202b;
+}
+.setting-table > .row > .cell > .flex-container.third {
+  background-color: #fff;
+}
+.setting-field,
+.setting-select {
+  color: #fff;
+  border: 1px solid #4e2d41;
+  background-color: #20101a;
+}
+.setting-select {
+  background: url(../img/select-arrow.png) no-repeat;
+}
+.select {
+  width: 100%;
+  position: relative;
+  -webkit-appearance: none !important;
+  -moz-appearance: none !important;
+  appearance: none !important;
+  background-repeat: no-repeat;
+  background-position: right center;
+  text-indent: 0.01px;
+  -o-text-overflow: "";
+  text-overflow: "";
+  height: 34px;
+  padding: 5px 10px;
+  background-position: right 10px top 50%;
+}
+.setting-category {
+  background-color: #c8304d;
+  height: 34px;
+  padding: 5px 10px;
+}
+.setting-category * {
+  color: #fff;
+}
+.setting-wrapper {
+  margin: 5px 0;
+  min-height: 34px;
+  position: relative;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding: 20px 10px;
+}
+.setting-wrapper.no-wrap {
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+}
+.setting-wrapper * {
+  color: #fff;
+}
+.setting-wrapper > div {
+  margin: 5px 0;
+}
+.setting-wrapper > .flex-container {
+  position: relative;
+  padding-right: 34px;
+}
+.setting-wrapper > .flex-container > .flex-container {
+  padding-right: 34px;
+}
+.setting-wrapper-text {
+  min-width: 100px;
+  max-width: 100px;
+}
+.setting-wrapper-button {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.setting-wrapper-label {
+  margin-left: 5px;
+  margin-right: 15px;
+}
+.setting-wrapper-transaction {
+  padding: 10px;
+  height: 150px;
+  background-color: #20101a;
+  border-top: 1px solid #4e2d41;
+}
+.setting .change-password {
+  margin-left: 105px;
+}

@@ -1,0 +1,280 @@
+.qb-Cupon {
+  position: absolute;
+  background: #d1d1d1;
+  padding: 10px;
+  border: 5px solid #c8304d;
+  border-radius: 5px;
+  z-index: 10;
+}
+
+/*qb-Header*/
+.qb-QuickBetMessageHeader {
+}
+.qb-QuickBetMessageHeader .qb-QuickBetMessageHeader_Message {
+}
+.qb-QuickBetMessageHeader .qb-QuickBetMessageHeader_Close {
+}
+/*qb-Selection*/
+.qb-QuickBetSelection {
+  position: relative;
+}
+.qb-QuickBetSelection .qb-QuickBetSelection_Close {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  cursor: pointer;
+}
+
+.qb-QuickBetSelection .qb-QuickBetSelection_Row {
+  display: flex;
+}
+.qb-QuickBetSelection
+  .qb-QuickBetSelection_Row
+  .qb-QuickBetSelection_Selection {
+  font-size: 18px;
+}
+.qb-QuickBetSelection .qb-QuickBetSelection_Row .qb-QuickBetSelection_Handicap {
+}
+.qb-QuickBetSelection .qb-QuickBetSelection_Row .qb-QuickBetSelection_OddsAt {
+  margin: 0px 5px;
+}
+.qb-QuickBetSelection
+  .qb-QuickBetSelection_Row
+  .qb-QuickBetSelection_Oddscontainer {
+}
+.qb-QuickBetSelection
+  .qb-QuickBetSelection_Row
+  .qb-QuickBetSelection_Oddscontainer
+  .qb-QuickBetSelection_Odds {
+  font-size: 18px;
+}
+
+.qb-QuickBetSelection .qb-QuickBetSelection_BetTypeContainer {
+}
+.qb-QuickBetSelection
+  .qb-QuickBetSelection_BetTypeContainer
+  .qb-QuickBetSelection_BetType {
+  font-size: 12px;
+}
+.qb-QuickBetSelection .qb-QuickBetSelection_Fixture {
+  font-size: 12px;
+}
+/*qb-User-Credits*/
+.qb-QuickBetUseBetCredits {
+}
+.qb-QuickBetUseBetCredits .qb-QuickBetUseBetCredits_CheckBoxWrapper {
+}
+.qb-QuickBetUseBetCredits
+  .qb-QuickBetUseBetCredits_CheckBoxWrapper
+  .qb-QuickBetUseBetCredits_CheckBox {
+}
+.qb-QuickBetUseBetCredits
+  .qb-QuickBetUseBetCredits_TextWrapper
+  .qb-QuickBetUseBetCredits_Text {
+}
+/*qb-Srake*/
+.qb-QuickBetStake {
+  margin: 10px 0px;
+}
+.qb-QuickBetStake .qb-QuickBetStake_BumperLine {
+  display: flex;
+  justify-content: space-around;
+}
+.qb-QuickBetStake .qb-QuickBetStake_BumperLine .qb-QuickBetStake_StakeLine {
+  position: relative;
+}
+.qb-QuickBetStake
+  .qb-QuickBetStake_BumperLine
+  .qb-QuickBetStake_StakeLine
+  .qb-QuickBetStake_Button {
+  position: absolute;
+  top: 0px;
+  width: 20px;
+  padding-top: 1px;
+  height: 25px;
+  line-height: 25px;
+  text-align: center;
+  background: #c8304dd4;
+  cursor: pointer;
+}
+.qb-QuickBetStake
+  .qb-QuickBetStake_BumperLine
+  .qb-QuickBetStake_StakeLine
+  .qb-QuickBetStake_InputField {
+  width: 100px;
+  border: none;
+  border-radius: 3px;
+  padding: 5px 0px 5px 25px;
+}
+.qb-QuickBetStake
+  .qb-QuickBetStake_BumperLine
+  .qb-QuickBetStake_StakeLine
+  .qb-QuickBetStake_Button:first-child {
+  left: 0px;
+}
+.qb-QuickBetStake
+  .qb-QuickBetStake_BumperLine
+  .qb-QuickBetStake_StakeLine
+  .qb-QuickBetStake_Button:last-child {
+  right: 0px;
+}
+
+.qb-QuickBetStake .qb-QuickBetStake_BumperLine .qb-QuickBetStake_Bumpers {
+  display: flex;
+  justify-content: space-between;
+}
+.qb-QuickBetStake
+  .qb-QuickBetStake_BumperLine
+  .qb-QuickBetStake_Bumpers
+  .qb-QuickBetStake_BumperButton {
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+  text-align: center;
+
+  cursor: pointer;
+  background: #f2f0f0;
+  margin-right: 1px;
+  border: 1px solid #8e8e8e;
+  border-radius: 3px;
+}
+/*qb-Message*/
+.qb-QuickBetBetCreditsMessage {
+}
+.qb-QuickBetBetCreditsMessage .qb-QuickBetBetCreditsMessage_Container {
+}
+.qb-QuickBetBetCreditsMessage
+  .qb-QuickBetBetCreditsMessage_Container
+  .qb-QuickBetBetCreditsMessage_CreditMessage {
+}
+.qb-QuickBetBetCreditsMessage .qb-QuickBetBetCreditsMessage_ReturnsMessage {
+}
+/*qb-Footer*/
+.qb-QuickBetFooter {
+}
+.qb-QuickBetFooter .qb-QuickBetFooter_Button {
+  cursor: pointer;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.qb-QuickBetFooter
+  .qb-QuickBetFooter_Button
+  .qb-QuickBetFooter_PlaceButtonContent {
+  text-align: center;
+  background: yellow;
+}
+.qb-QuickBetFooter
+  .qb-QuickBetFooter_Button
+  .qb-QuickBetFooter_PlaceButtonContent
+  .qb-QuickBetFooter_Stake {
+  display: inline-block;
+}
+.qb-QuickBetFooter
+  .qb-QuickBetFooter_Button
+  .qb-QuickBetFooter_PlaceButtonContent
+  .qb-QuickBetFooter_PlaceText {
+  display: inline-block;
+}
+.qb-QuickBetFooter
+  .qb-QuickBetFooter_Button
+  .qb-QuickBetFooter_PlaceButtonContent
+  .qb-QuickBetFooter_ToReturnWrapper {
+  display: flex;
+  justify-content: center;
+}
+.qb-QuickBetFooter
+  .qb-QuickBetFooter_Button
+  .qb-QuickBetFooter_PlaceButtonContent
+  .qb-QuickBetFooter_ToReturnWrapper
+  .qb-QuickBetFooter_ToReturnLabel {
+}
+.qb-QuickBetFooter
+  .qb-QuickBetFooter_Button
+  .qb-QuickBetFooter_PlaceButtonContent
+  .qb-QuickBetFooter_ToReturnWrapper
+  .qb-QuickBetFooter_NetReturnLabel {
+}
+.qb-QuickBetFooter
+  .qb-QuickBetFooter_Button
+  .qb-QuickBetFooter_PlaceButtonContent
+  .qb-QuickBetFooter_ToReturnWrapper
+  .qb-QuickBetFooter_ToReturnAmount {
+  margin-left: 5px;
+}
+.qb-QuickBetFooter
+  .qb-QuickBetFooter_Button
+  .qb-QuickBetFooter_AcceptButtonContent {
+}
+.qb-QuickBetFooter
+  .qb-QuickBetFooter_Button
+  .qb-QuickBetFooter_AcceptButtonContent
+  .qb-QuickBetFooter_AcceptText {
+}
+.qb-QuickBetFooter
+  .qb-QuickBetFooter_Button
+  .qb-QuickBetFooter_PlacingButtonContent {
+}
+.qb-QuickBetFooter
+  .qb-QuickBetFooter_Button
+  .qb-QuickBetFooter_PlacingButtonContent
+  .qb-QuickBetFooter_PlacingText {
+}
+.activate-qb {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 50;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.35);
+  display: flex;
+  justify-content: center;
+}
+.activate-qb-inner {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+
+  width: 450px;
+  height: 150px;
+  margin-top: 250px;
+  padding: 10px 40px;
+
+  background: #2e323d;
+  border-radius: 3px;
+}
+.activate-qb-inner .close-acQb {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: #ffffff;
+  cursor: pointer;
+}
+.activate-qb-inner h2,
+.activate-qb-inner h4 {
+  text-align: center;
+  color: #ffffff;
+  margin: 5px 0px;
+  font-weight: 100;
+}
+.activate-qb-inner h2 {
+  font-size: 18px;
+}
+.activate-qb-inner h4 {
+  font-size: 16px;
+}
+.activate-qb-inner .activate-qb-buttons {
+  display: flex;
+  justify-content: space-around;
+}
+.activate-qb-inner .activate-qb-buttons .activate-qb-buttons__close {
+    background: #950006;
+}
+.activate-qb-inner .activate-qb-buttons button {
+  border: none;
+  background: #0e600f;
+  color: #ffffff;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 8px 10px;
+}

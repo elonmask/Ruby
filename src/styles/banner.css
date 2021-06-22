@@ -1,0 +1,131 @@
+.banner,
+.banner.small {
+  margin-bottom: 10px;
+}
+
+.banner.small {
+  height: 60px;
+}
+
+.banner.small * {
+  position: relative;
+  z-index: 2;
+}
+
+.banner.small .banner__title {
+  background-color: #c8304d;
+  height: 60px;
+  width: 60px;
+  color: #fff;
+  font-size: 28px;
+}
+
+.banner.small .banner__text {
+  color: #fff;
+  font-size: 26px;
+  margin-left: 20px;
+  text-transform: uppercase;
+}
+
+.banner__img {
+  width: 100%;
+  position: relative;
+}
+
+.banner__title {
+  color: #c8304d;
+}
+
+.banner__text {
+  color: #fff;
+}
+.slider__wrapper {
+  overflow: hidden;
+}
+
+.slider__track {
+  position: relative;
+  height: 100%;
+  display: -ms-flexbox;
+  display: flex;
+  white-space: nowrap;
+  transition: all 0.5s;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.slider__next,
+.slider__prev {
+  z-index: 1;
+  height: 100% !important;
+  width: 30px !important;
+  position: absolute;
+  background-color: #c8304d;
+  opacity: 0.8;
+}
+
+.slider__next > *,
+.slider__prev > * {
+  color: #fff;
+  font-size: 22px;
+}
+
+.slider__next.active,
+.slider__next:hover,
+.slider__prev.active,
+.slider__prev:hover {
+  opacity: 1;
+}
+
+.slider__prev {
+  left: 0;
+}
+
+.slider__next {
+  right: 0;
+}
+
+.banner .banner-title {
+  height: 100%;
+  width: 60px;
+  background: #c8304d;
+  margin-right: 10px;
+}
+.banner .banner-title .icon {
+  color: #ffffff;
+  font-size: 30px;
+}
+.banner .banner-text {
+  font-size: 25px;
+  color: #ffffff;
+}
+.prev-result {
+  text-align: center;
+  margin-bottom: 10px;
+}
+.prev-result .prev-result-header,
+.prev-result .prev-result-row {
+  color: #ffffff;
+  background: #343341;
+  padding: 5px 10px;
+  border-bottom: 1px solid #16151d;
+}
+.prev-result .prev-result-header .prev-result-link {
+  color: #ffffff;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.prev-result .prev-result-title {
+  background: #292833;
+  color: #ffffff;
+  padding: 15px 5px;
+  border-bottom: 1px solid #16151d;
+}
+
+.prev-result .prev-result-row.red {
+  background: #731225;
+}
+.prev-result .prematch-statistic {
+  overflow: hidden;
+  transition: max-height 0.5s;
+}

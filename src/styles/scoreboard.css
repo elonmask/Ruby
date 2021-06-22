@@ -1,0 +1,383 @@
+.scoreboard__wrapper {
+	flex: 1 1 auto;
+}
+.scoreboard {
+	margin-bottom: 10px;
+	position: relative;
+}
+.scoreboard .event-defaultMes {
+	background: #292833;
+	border: 3px solid #07222d;
+	min-height: 220px;
+	font-size: 17px;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.scorebordImg {
+	position: relative;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-position: center;
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	right: 0;
+}
+
+.scorebordImg:after {
+	content: '';
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 0;
+	z-index: 0;
+	position: absolute;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.scoreboardMenu {
+	background-color: #343341;
+	padding: 10px;
+	height: 34px;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-align: center;
+	align-items: center;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	position: relative;
+}
+
+.scoreboardMenu * {
+	color: #fff !important;
+}
+
+.scoreboardMenu__wrapper.big {
+	max-width: 90%;
+	-ms-flex-positive: 1;
+	flex-grow: 1;
+}
+
+.scoreboardMenu__link {
+	margin-left: 10px;
+}
+
+.scoreboardMenu__link:before {
+	font-size: 18px;
+}
+
+.scoreboardMenu .scoreboardTitle {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.scoreboardToggle {
+	position: absolute;
+	right: 0;
+	top: 100%;
+	z-index: 2;
+	opacity: 1;
+	max-height: 500px;
+	max-width: 300px;
+	overflow-y: auto;
+	transition: opacity 0.2s, z-index 0.2s;
+}
+
+.scoreboardToggle.none {
+	opacity: 0;
+	z-index: -1;
+}
+
+.scoreboardToggle__item {
+	cursor: pointer;
+	width: 100%;
+	padding: 5px 10px;
+	background-color: #0c2029;
+	border-bottom: 1px solid #0a3343;
+}
+
+.scoreboardToggle__item.active,
+.scoreboardToggle__item:hover {
+	background-color: #0a3343;
+}
+
+.scoreboardToggle__item.active *,
+.scoreboardToggle__item:hover * {
+	color: #fff;
+}
+
+.scoreboardToggle__item * {
+	color: hsla(0, 0%, 100%, 0.6);
+}
+
+.scoreboardToggle__item .scoreboardTitle {
+	margin-left: 0;
+	margin-right: 5px;
+}
+
+.scoreboardHide {
+	position: absolute;
+	right: 5px;
+	top: 5px;
+	font-size: 12px;
+	padding: 5px 10px;
+	cursor: pointer;
+	z-index: 4;
+	color: hsla(0, 0%, 100%, 0.6);
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+.scoreboardHide:hover {
+	color: #fff;
+}
+
+.scoreboardScreen {
+	padding: 5% 0;
+	position: relative;
+	max-height: 500px;
+	overflow: hidden;
+	transition: max-height 0.3s, padding 0.3s;
+}
+
+.scoreboardScreen .table {
+	display: table;
+	border-collapse: collapse;
+	margin-bottom: 0;
+	background-color: transparent;
+	width: 100%;
+	max-width: 80%;
+	margin: 0 auto;
+}
+
+.scoreboardScreen .table__row {
+	width: 100%;
+	display: table-row;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.scoreboardScreen .table__row.title {
+	background-color: #c8304d;
+}
+
+.scoreboardScreen .table__cell {
+	border: 1px solid hsla(0, 0%, 100%, 0.2);
+	text-align: center;
+	display: table-cell;
+	padding: 5px;
+	vertical-align: middle;
+	width: 40px;
+}
+.scoreboardScreen .table__body {
+	display: table-row-group;
+}
+
+.scoreboardScreen .scoreboard_table {
+	margin: 0px auto;
+	background-color: transparent;
+	width: 100%;
+	max-width: 90%;
+}
+
+.scoreboardScreen .scoreboard_table .column {
+	display: flex;
+	flex-direction: column;
+	background-color: rgba(0, 0, 0, 0.5);
+	border-right: 1px solid #b3afaf7d;
+	max-height: 120px;
+}
+.scoreboardScreen .scoreboard_table .none {
+	display: none;
+}
+.scoreboardScreen .scoreboard_table .column:first-child {
+	border-left: 1px solid #b3afaf7d;
+}
+.scoreboardScreen .scoreboard_table .column .title {
+	background-color: #c8304d;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.scoreboardScreen .scoreboard_table .column .cell {
+	min-width: 35px;
+	min-height: 40px;
+	max-width: 120px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	padding: 5px;
+
+	border-bottom: 1px solid #b3afaf7d;
+	color: #ffffff;
+}
+
+.scoreboardScreen .scoreboard_table .column .cell.first {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.scoreboardScreen .scoreboard_table .column .cell.another {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.scoreboardScreen .scoreboard_table .column .cell:first-child {
+	border-top: 1px solid #b3afaf7d;
+}
+
+.scoreboardCount {
+	margin-bottom: 20px;
+}
+
+.scoreboardCount__item {
+	color: #fff;
+}
+
+.scoreboardCount__item.small {
+	font-size: 22px;
+	-ms-flex: 1 1 45%;
+	flex: 1 1 45%;
+	white-space: nowrap;
+	max-width: 220px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.scoreboardCount__item.small:first-child {
+	text-align: right;
+	padding-left: 10px;
+}
+
+.scoreboardCount__item.small:last-child {
+	text-align: left;
+	padding-right: 10px;
+}
+
+.scoreboardCount__item.big {
+	font-size: 32px;
+	max-width: 10%;
+	-ms-flex: 1 1 10%;
+	flex: 1 1 10%;
+	text-align: center;
+}
+
+.scoreboardBadge {
+	height: 8px;
+	width: 8px;
+	border: 1px solid #000;
+	margin: 0 5px;
+}
+
+.scoreboardBadge.primary {
+	/*background-color: grey;*/
+    opacity: 0;
+}
+
+.scoreboardBadge.second {
+	background-color: #ff0;
+}
+
+.scoreboardTitle {
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	margin: 0px auto;
+}
+
+.scoreboardTitle.icon {
+	width: 15px;
+	height: 15px;
+}
+
+.scoreboardTitle.primary {
+	color: #ffffff;
+}
+.scoreboardTitle.cornerKicks {
+	background-image: url('../img/scoreboard/corner.svg');
+}
+
+.scoreboardTitle.yellowCards {
+	background-image: url('../img/scoreboard/y-card.svg');
+}
+
+.scoreboardTitle.redCards {
+	background-image: url('../img/scoreboard/r-card.svg');
+}
+
+.scoreboardTitle.goal {
+	background-image: url('../img/scoreboard/goal.svg');
+}
+
+.scoreboardTitle.throw-in {
+	/*background-image: url("../img/scoreboard/penalty.svg.");*/
+	/*width: 19px;*/
+	/*height: 18px;*/
+	/*background-position: 0px -86px;*/
+}
+
+.scoreboardTitle.free-kick {
+	background: url('../img/scoreboard/free-kick.svg');
+	/*width: 20px;*/
+	/*height: 20px;*/
+	/*background-position: 0px -113px;*/
+}
+
+.scoreboardTitle.goal-kick {
+	background: url('../img/scoreboard/goal.svg');
+	/*width: 18px;*/
+	/*height: 18px;*/
+	/*background-position: 0px -146px;*/
+}
+
+.scoreboardTitle.substitution {
+	background: url('../img/scoreboard/substitution.svg');
+	/*width: 20px;*/
+	/*background-position: 0px -178px;*/
+}
+
+.scoreboardTitle.penalty {
+	/*width: 20px;*/
+	/*height: 16px;*/
+	/*background-position: 0px -237px;*/
+}
+.scoreboardTitle.break {
+	/*width: 20px;*/
+	/*height: 16px;*/
+	/*background-image: none;*/
+}
+.scoreboardTitle.none {
+	/*background-image: none;*/
+}
+
+.scoreboardText {
+    margin: 0px auto;
+}
+.scoreboardText.title_row__cell {
+    margin: 0;
+    max-width: 180px !important;
+}
+
+.scoreboardText.primary {
+	color: #fff !important;
+	white-space: nowrap;
+	max-width: 98px;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+
+.scoreboardText.second {
+	color: #ff0;
+}
+.scoreboardShow {
+	cursor: pointer;
+	padding: 0px 5px;
+}
+.scoreboardShow.toggle__show::before {
+	content: 'Show';
+}
+.scoreboardShow.toggle__hide::before {
+	content: 'Hide';
+}
